@@ -4,6 +4,10 @@
         margin-left: 10px;
     }
 
+    footer ul li a {
+        margin-right: 40px;
+    }
+
     .nav-container {
         padding: 0 40px;
     }
@@ -21,6 +25,10 @@
 @media only screen and (min-width: 600px) {
     nav ul li a {
         margin-left: 30px;
+    }
+   
+    footer ul li a {
+        margin-right: 40px;
     }
 
     .nav-container {
@@ -42,6 +50,10 @@
         margin-left: 50px;
     }
 
+    footer ul li a {
+        margin-right: 100px;
+    }
+
     .nav-container {
         padding: 0 60px;
     }
@@ -59,6 +71,10 @@
 @media only screen and (min-width: 992px) {
     nav ul li a {
         margin-left: 80px;
+    }
+
+    footer ul li a {
+        margin-right: 176px;
     }
 
     .nav-container {
@@ -80,6 +96,10 @@
         margin-left: 130px;
     }
 
+    footer ul li a {
+        margin-right: 176px;
+    }
+
     .nav-container {
         padding: 0 60px;
     }
@@ -97,6 +117,10 @@
 @media only screen and (min-width: 1425px) {
     nav ul li a {
         margin-left: 130px;
+    }
+
+    footer ul li a {
+        margin-right: 176px;
     }
 
     .nav-container {
@@ -140,6 +164,7 @@ nav ul {
 }
 
 nav ul li {
+    display: none;
     text-decoration: none;
 }
 
@@ -153,6 +178,39 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    color: #E76D53;
+    text-shadow: 0px 0px 3px #F1CEC7;
+    text-decoration: underline;
+}
+
+footer ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    text-decoration: none;
+}
+
+footer ul li:hover {
+    color: #E76D53;
+    text-shadow: 0px 0px 3px #F1CEC7;
+    text-decoration: underline;
+}
+
+footer ul li a {
+    float: right;
+    color: rgb(22, 22, 22);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+footer ul li a:hover {
     color: #E76D53;
     text-shadow: 0px 0px 3px #F1CEC7;
     text-decoration: underline;
@@ -203,7 +261,7 @@ footer {
 .top-spacer {
     margin: 0;
     padding: 0;
-    height: 50px;
+    height: 20px;
 }
 
 .intro-text {
@@ -304,4 +362,10 @@ footer {
     position: absolute;
     top: 32px;
     left: 153px;
+}
+
+.footer-spacer {
+    margin: 0;
+    padding: 0;
+    height: 45px;
 }
