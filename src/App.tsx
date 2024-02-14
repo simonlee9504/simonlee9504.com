@@ -311,6 +311,10 @@ function App() {
 											setBigText('');
 											setYesTextFontStyle('normal');
 											break;
+										case IMAGE.TIRED:
+											window.location.href =
+												'https://github.com/simonlee9504/simonlee9504.com/blob/valentines-2024/src/App.tsx';
+											break;
 									}
 								}}
 							>
